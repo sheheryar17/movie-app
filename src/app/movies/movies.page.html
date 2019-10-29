@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-title>Movies</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <app-movie-item 
+    *ngFor="let movie of movies" 
+    [movieItem]="movie">
+  
+  </app-movie-item>
+  </ion-list>
+
+</ion-content>

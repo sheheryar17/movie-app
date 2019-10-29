@@ -1,0 +1,8 @@
+<ion-item [routerLink]="['/movies', movieItem.id]" routerLinkActive="router-link-active" >
+  <ion-avatar slot="start">
+    <ion-img [src]="movieItem.imageUrl"></ion-img>
+  </ion-avatar>
+  <ion-label>
+    {{ movieItem.name }}
+  </ion-label>
+</ion-item>
