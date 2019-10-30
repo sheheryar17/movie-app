@@ -1,4 +1,4 @@
-/* This application shows a list of movies, you can add movie of your own, see movie details as well as delete movie form the list */
+/* This application shows a list of movies, you can add movie of your own, see movie details as well as delete movie fr0m the list */
 <img src="capture.jpg">
 <img src="capture1.jpg">
 <img src="capture2.jpg">
